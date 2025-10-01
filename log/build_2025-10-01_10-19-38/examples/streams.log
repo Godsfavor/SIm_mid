@@ -1,0 +1,20 @@
+[0.019s] Invoking command in '/home/gfave/sim_mid/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/sim_mid/build/examples -- -j8 -l8
+[0.149s] Invoked command in '/home/gfave/sim_mid/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/sim_mid/build/examples -- -j8 -l8
+[0.175s] Invoking command in '/home/gfave/sim_mid/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/sim_mid/build/examples
+[0.182s] -- Install configuration: ""
+[0.184s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/ament_index/resource_index/package_run_dependencies/examples
+[0.184s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/ament_index/resource_index/parent_prefix_path/examples
+[0.187s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/environment/ament_prefix_path.sh
+[0.187s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/environment/ament_prefix_path.dsv
+[0.187s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/environment/path.sh
+[0.187s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/environment/path.dsv
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/local_setup.bash
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/local_setup.sh
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/local_setup.zsh
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/local_setup.dsv
+[0.188s] -- Installing: /home/gfave/sim_mid/install/examples/share/examples/package.dsv
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/ament_index/resource_index/packages/examples
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/cmake/examplesConfig.cmake
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/cmake/examplesConfig-version.cmake
+[0.188s] -- Up-to-date: /home/gfave/sim_mid/install/examples/share/examples/package.xml
+[0.191s] Invoked command in '/home/gfave/sim_mid/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/sim_mid/build/examples

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/lib/my_robot_controller/publisher
+-- Set runtime path of "/home/gfave/sim_mid/install/my_robot_controller/lib/my_robot_controller/publisher" to ""
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/package.dsv
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+-- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+-- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/package.xml

@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/gfave/sim_mid/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/sim_mid/build/my_robot_controller -- -j8 -l8
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[4.675s] [100%] [32m[1mLinking CXX executable publisher[0m
+[4.970s] [100%] Built target publisher
+[4.981s] Invoked command in '/home/gfave/sim_mid/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/sim_mid/build/my_robot_controller -- -j8 -l8
+[5.003s] Invoking command in '/home/gfave/sim_mid/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/sim_mid/build/my_robot_controller
+[5.010s] -- Install configuration: ""
+[5.010s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/lib/my_robot_controller/publisher
+[5.011s] -- Set runtime path of "/home/gfave/sim_mid/install/my_robot_controller/lib/my_robot_controller/publisher" to ""
+[5.011s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+[5.011s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+[5.011s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+[5.011s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+[5.012s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+[5.012s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/package.dsv
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+[5.012s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+[5.013s] -- Up-to-date: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+[5.013s] -- Installing: /home/gfave/sim_mid/install/my_robot_controller/share/my_robot_controller/package.xml
+[5.015s] Invoked command in '/home/gfave/sim_mid/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/sim_mid/build/my_robot_controller

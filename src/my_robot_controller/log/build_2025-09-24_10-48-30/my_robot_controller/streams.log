@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/gfave/sim_mid/src/my_robot_controller/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/gfave/sim_mid/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/gfave/sim_mid/src/my_robot_controller/install/my_robot_controller
+[0.106s] [31mCMake Error at CMakeLists.txt:15:
+[0.106s]   Parse error.  Expected "(", got identifier with text "executable".
+[0.106s] 
+[0.106s] [0m
+[0.107s] -- Configuring incomplete, errors occurred!
+[0.116s] Invoked command in '/home/gfave/sim_mid/src/my_robot_controller/build/my_robot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake /home/gfave/sim_mid/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/gfave/sim_mid/src/my_robot_controller/install/my_robot_controller

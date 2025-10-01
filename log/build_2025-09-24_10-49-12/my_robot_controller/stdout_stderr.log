@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:15:
+  Parse error.  Expected "(", got identifier with text "executable".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/gfave/sim_mid/build/my_robot_controller/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
