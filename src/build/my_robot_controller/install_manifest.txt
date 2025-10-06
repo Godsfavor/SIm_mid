@@ -1,0 +1,17 @@
+/home/gfave/SIm_mid/src/install/my_robot_controller/lib/my_robot_controller/publisher
+/home/gfave/SIm_mid/src/install/my_robot_controller/lib/my_robot_controller/subscriber
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/package.dsv
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+/home/gfave/SIm_mid/src/install/my_robot_controller/share/my_robot_controller/package.xml
