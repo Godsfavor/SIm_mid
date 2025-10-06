@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/gfave/SIm_mid/build/sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/SIm_mid/build/sum -- -j8 -l8
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target sum_node[0m
+[0.160s] [ 50%] [32mBuilding CXX object CMakeFiles/sum_node.dir/src/sum.cpp.o[0m
+[11.093s] [100%] [32m[1mLinking CXX executable sum_node[0m
+[11.722s] [100%] Built target sum_node
+[11.741s] Invoked command in '/home/gfave/SIm_mid/build/sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --build /home/gfave/SIm_mid/build/sum -- -j8 -l8
+[11.799s] Invoking command in '/home/gfave/SIm_mid/build/sum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/SIm_mid/build/sum
+[11.812s] -- Install configuration: ""
+[11.813s] -- Installing: /home/gfave/SIm_mid/install/sum/lib/sum/sum_node
+[11.818s] -- Set runtime path of "/home/gfave/SIm_mid/install/sum/lib/sum/sum_node" to ""
+[11.818s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/package_run_dependencies/sum
+[11.818s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/parent_prefix_path/sum
+[11.818s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.sh
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.dsv
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.sh
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.dsv
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.bash
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.sh
+[11.819s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.zsh
+[11.820s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.dsv
+[11.820s] -- Installing: /home/gfave/SIm_mid/install/sum/share/sum/package.dsv
+[11.820s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/packages/sum
+[11.820s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig.cmake
+[11.820s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig-version.cmake
+[11.820s] -- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/package.xml
+[11.825s] Invoked command in '/home/gfave/SIm_mid/build/sum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble /usr/bin/cmake --install /home/gfave/SIm_mid/build/sum

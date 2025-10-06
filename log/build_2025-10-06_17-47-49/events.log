@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'examples'}
+[0.000341] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000387] (sum) JobQueued: {'identifier': 'sum', 'dependencies': OrderedDict()}
+[0.001470] (sum) JobStarted: {'identifier': 'sum'}
+[0.012796] (sum) JobProgress: {'identifier': 'sum', 'progress': 'cmake'}
+[0.013663] (sum) JobProgress: {'identifier': 'sum', 'progress': 'build'}
+[0.014609] (sum) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gfave/SIm_mid/build/sum', '--', '-j8', '-l8'], 'cwd': '/home/gfave/SIm_mid/build/sum', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gfave'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gfave'), ('OLDPWD', '/home/gfave/SIm_mid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1900'), ('SYSTEMD_EXEC_PID', '2266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7889'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gfave/SIm_mid/install:/home/gfave/ros2brovtest_ws/install:/home/gfave/install:/home/gfave/SIm_mid/src/install:/home/gfave/sim_mid/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gfave'), ('JOURNAL_STREAM', '8:18860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gfave'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gfave/.cargo/bin:/home/gfave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gfave-HP-ProBook-430-G7:@/tmp/.ICE-unix/2037,unix/gfave-HP-ProBook-430-G7:/tmp/.ICE-unix/2037'), ('INVOCATION_ID', 'd897121b5fd34a27890a7240be9c48b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.507WD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gfave/SIm_mid/install/sum:/home/gfave/SIm_mid/install/my_robot_controller:/home/gfave/SIm_mid/install/examples:/home/gfave/SIm_mid/src/install/sum:/home/gfave/SIm_mid/src/install/my_robot_controller:/home/gfave/SIm_mid/src/install/examples:/home/gfave/sim_mid/install/my_robot_controller:/home/gfave/sim_mid/install/examples:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:838a8ede-1cde-4a7a-9d14-0613976713a5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gfave/SIm_mid/build/sum'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gfave/ros2brovtest_ws/install/ping_sonar_ros/lib/python3.10/site-packages:/home/gfave/ros2brovtest_ws/install/autonomous_rov/lib/python3.10/site-packages:/home/gfave/install/ping_sonar_ros/lib/python3.10/site-packages:/home/gfave/install/autonomous_rov/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gfave/SIm_mid/install/sum:/home/gfave/SIm_mid/install/my_robot_controller:/home/gfave/SIm_mid/install/examples:/home/gfave/SIm_mid/src/install/sum:/home/gfave/SIm_mid/src/install/my_robot_controller:/home/gfave/SIm_mid/src/install/examples:/home/gfave/sim_mid/install/my_robot_controller:/home/gfave/sim_mid/install/examples:/home/gfave/install/bluerov2_agent:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble')]), 'shell': False}
+[0.099702] (-) TimerEvent: {}
+[0.135317] (sum) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sum_node\x1b[0m\n'}
+[0.161327] (sum) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sum_node.dir/src/sum.cpp.o\x1b[0m\n'}
+[0.199910] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.400962] (-) TimerEvent: {}
+[0.501382] (-) TimerEvent: {}
+[0.601789] (-) TimerEvent: {}
+[0.702153] (-) TimerEvent: {}
+[0.802552] (-) TimerEvent: {}
+[0.903069] (-) TimerEvent: {}
+[1.003462] (-) TimerEvent: {}
+[1.103851] (-) TimerEvent: {}
+[1.204509] (-) TimerEvent: {}
+[1.304975] (-) TimerEvent: {}
+[1.405402] (-) TimerEvent: {}
+[1.505805] (-) TimerEvent: {}
+[1.606157] (-) TimerEvent: {}
+[1.706519] (-) TimerEvent: {}
+[1.806963] (-) TimerEvent: {}
+[1.907351] (-) TimerEvent: {}
+[2.007794] (-) TimerEvent: {}
+[2.108268] (-) TimerEvent: {}
+[2.208980] (-) TimerEvent: {}
+[2.309494] (-) TimerEvent: {}
+[2.410066] (-) TimerEvent: {}
+[2.510553] (-) TimerEvent: {}
+[2.611071] (-) TimerEvent: {}
+[2.711511] (-) TimerEvent: {}
+[2.811957] (-) TimerEvent: {}
+[2.912347] (-) TimerEvent: {}
+[3.012750] (-) TimerEvent: {}
+[3.113195] (-) TimerEvent: {}
+[3.213591] (-) TimerEvent: {}
+[3.314073] (-) TimerEvent: {}
+[3.414816] (-) TimerEvent: {}
+[3.515342] (-) TimerEvent: {}
+[3.615836] (-) TimerEvent: {}
+[3.716304] (-) TimerEvent: {}
+[3.816785] (-) TimerEvent: {}
+[3.917251] (-) TimerEvent: {}
+[4.017811] (-) TimerEvent: {}
+[4.118356] (-) TimerEvent: {}
+[4.218776] (-) TimerEvent: {}
+[4.319298] (-) TimerEvent: {}
+[4.419748] (-) TimerEvent: {}
+[4.520149] (-) TimerEvent: {}
+[4.620547] (-) TimerEvent: {}
+[4.721095] (-) TimerEvent: {}
+[4.821531] (-) TimerEvent: {}
+[4.921977] (-) TimerEvent: {}
+[5.022386] (-) TimerEvent: {}
+[5.122753] (-) TimerEvent: {}
+[5.223176] (-) TimerEvent: {}
+[5.323780] (-) TimerEvent: {}
+[5.424383] (-) TimerEvent: {}
+[5.524972] (-) TimerEvent: {}
+[5.625378] (-) TimerEvent: {}
+[5.725750] (-) TimerEvent: {}
+[5.826137] (-) TimerEvent: {}
+[5.926520] (-) TimerEvent: {}
+[6.026933] (-) TimerEvent: {}
+[6.127322] (-) TimerEvent: {}
+[6.228765] (-) TimerEvent: {}
+[6.329403] (-) TimerEvent: {}
+[6.429875] (-) TimerEvent: {}
+[6.530297] (-) TimerEvent: {}
+[6.630747] (-) TimerEvent: {}
+[6.731221] (-) TimerEvent: {}
+[6.831544] (-) TimerEvent: {}
+[6.931991] (-) TimerEvent: {}
+[7.032398] (-) TimerEvent: {}
+[7.132809] (-) TimerEvent: {}
+[7.233327] (-) TimerEvent: {}
+[7.333754] (-) TimerEvent: {}
+[7.434146] (-) TimerEvent: {}
+[7.534505] (-) TimerEvent: {}
+[7.634932] (-) TimerEvent: {}
+[7.735314] (-) TimerEvent: {}
+[7.835698] (-) TimerEvent: {}
+[7.936087] (-) TimerEvent: {}
+[8.036474] (-) TimerEvent: {}
+[8.136861] (-) TimerEvent: {}
+[8.237260] (-) TimerEvent: {}
+[8.337652] (-) TimerEvent: {}
+[8.438081] (-) TimerEvent: {}
+[8.538464] (-) TimerEvent: {}
+[8.638882] (-) TimerEvent: {}
+[8.739295] (-) TimerEvent: {}
+[8.839693] (-) TimerEvent: {}
+[8.940095] (-) TimerEvent: {}
+[9.040481] (-) TimerEvent: {}
+[9.140971] (-) TimerEvent: {}
+[9.241414] (-) TimerEvent: {}
+[9.341787] (-) TimerEvent: {}
+[9.442174] (-) TimerEvent: {}
+[9.542595] (-) TimerEvent: {}
+[9.643179] (-) TimerEvent: {}
+[9.743567] (-) TimerEvent: {}
+[9.844032] (-) TimerEvent: {}
+[9.944425] (-) TimerEvent: {}
+[10.044830] (-) TimerEvent: {}
+[10.145220] (-) TimerEvent: {}
+[10.245566] (-) TimerEvent: {}
+[10.346126] (-) TimerEvent: {}
+[10.446517] (-) TimerEvent: {}
+[10.546997] (-) TimerEvent: {}
+[10.647428] (-) TimerEvent: {}
+[10.747810] (-) TimerEvent: {}
+[10.848220] (-) TimerEvent: {}
+[10.948549] (-) TimerEvent: {}
+[11.048934] (-) TimerEvent: {}
+[11.094413] (sum) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sum_node\x1b[0m\n'}
+[11.149085] (-) TimerEvent: {}
+[11.249540] (-) TimerEvent: {}
+[11.350019] (-) TimerEvent: {}
+[11.450466] (-) TimerEvent: {}
+[11.550858] (-) TimerEvent: {}
+[11.651235] (-) TimerEvent: {}
+[11.723197] (sum) StdoutLine: {'line': b'[100%] Built target sum_node\n'}
+[11.742294] (sum) CommandEnded: {'returncode': 0}
+[11.751379] (-) TimerEvent: {}
+[11.784308] (sum) JobProgress: {'identifier': 'sum', 'progress': 'install'}
+[11.799695] (sum) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gfave/SIm_mid/build/sum'], 'cwd': '/home/gfave/SIm_mid/build/sum', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gfave'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gfave'), ('OLDPWD', '/home/gfave/SIm_mid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1900'), ('SYSTEMD_EXEC_PID', '2266'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7889'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gfave/SIm_mid/install:/home/gfave/ros2brovtest_ws/install:/home/gfave/install:/home/gfave/SIm_mid/src/install:/home/gfave/sim_mid/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gfave'), ('JOURNAL_STREAM', '8:18860'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gfave'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/gfave/.cargo/bin:/home/gfave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gfave-HP-ProBook-430-G7:@/tmp/.ICE-unix/2037,unix/gfave-HP-ProBook-430-G7:/tmp/.ICE-unix/2037'), ('INVOCATION_ID', 'd897121b5fd34a27890a7240be9c48b3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.507WD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gfave/SIm_mid/install/sum:/home/gfave/SIm_mid/install/my_robot_controller:/home/gfave/SIm_mid/install/examples:/home/gfave/SIm_mid/src/install/sum:/home/gfave/SIm_mid/src/install/my_robot_controller:/home/gfave/SIm_mid/src/install/examples:/home/gfave/sim_mid/install/my_robot_controller:/home/gfave/sim_mid/install/examples:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:838a8ede-1cde-4a7a-9d14-0613976713a5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gfave/SIm_mid/build/sum'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gfave/ros2brovtest_ws/install/ping_sonar_ros/lib/python3.10/site-packages:/home/gfave/ros2brovtest_ws/install/autonomous_rov/lib/python3.10/site-packages:/home/gfave/install/ping_sonar_ros/lib/python3.10/site-packages:/home/gfave/install/autonomous_rov/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gfave/SIm_mid/install/sum:/home/gfave/SIm_mid/install/my_robot_controller:/home/gfave/SIm_mid/install/examples:/home/gfave/SIm_mid/src/install/sum:/home/gfave/SIm_mid/src/install/my_robot_controller:/home/gfave/SIm_mid/src/install/examples:/home/gfave/sim_mid/install/my_robot_controller:/home/gfave/sim_mid/install/examples:/home/gfave/install/bluerov2_agent:/home/gfave/ros2brovtest_ws/install/ping_sonar_ros:/home/gfave/ros2brovtest_ws/install/autonomous_rov:/home/gfave/install/ping_sonar_ros:/home/gfave/install/autonomous_rov:/opt/ros/humble')]), 'shell': False}
+[11.813528] (sum) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.814087] (sum) StdoutLine: {'line': b'-- Installing: /home/gfave/SIm_mid/install/sum/lib/sum/sum_node\n'}
+[11.819239] (sum) StdoutLine: {'line': b'-- Set runtime path of "/home/gfave/SIm_mid/install/sum/lib/sum/sum_node" to ""\n'}
+[11.819680] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/package_run_dependencies/sum\n'}
+[11.819889] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/parent_prefix_path/sum\n'}
+[11.820013] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.sh\n'}
+[11.820146] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.dsv\n'}
+[11.820457] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.sh\n'}
+[11.820645] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.dsv\n'}
+[11.820788] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.bash\n'}
+[11.820911] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.sh\n'}
+[11.821031] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.zsh\n'}
+[11.821146] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.dsv\n'}
+[11.821261] (sum) StdoutLine: {'line': b'-- Installing: /home/gfave/SIm_mid/install/sum/share/sum/package.dsv\n'}
+[11.821445] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/packages/sum\n'}
+[11.821572] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig.cmake\n'}
+[11.821707] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig-version.cmake\n'}
+[11.821823] (sum) StdoutLine: {'line': b'-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/package.xml\n'}
+[11.825190] (sum) CommandEnded: {'returncode': 0}
+[11.851879] (-) TimerEvent: {}
+[11.902549] (sum) JobEnded: {'identifier': 'sum', 'rc': 0}
+[11.904265] (-) EventReactorShutdown: {}

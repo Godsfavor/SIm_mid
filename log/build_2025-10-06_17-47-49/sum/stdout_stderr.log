@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target sum_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sum_node.dir/src/sum.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sum_node[0m
+[100%] Built target sum_node
+-- Install configuration: ""
+-- Installing: /home/gfave/SIm_mid/install/sum/lib/sum/sum_node
+-- Set runtime path of "/home/gfave/SIm_mid/install/sum/lib/sum/sum_node" to ""
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/package_run_dependencies/sum
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/parent_prefix_path/sum
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.sh
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/environment/path.dsv
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.bash
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.sh
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.zsh
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/local_setup.dsv
+-- Installing: /home/gfave/SIm_mid/install/sum/share/sum/package.dsv
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/ament_index/resource_index/packages/sum
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig.cmake
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/cmake/sumConfig-version.cmake
+-- Up-to-date: /home/gfave/SIm_mid/install/sum/share/sum/package.xml
