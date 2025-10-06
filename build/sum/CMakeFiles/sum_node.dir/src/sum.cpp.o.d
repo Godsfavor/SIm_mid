@@ -601,4 +601,8 @@ CMakeFiles/sum_node.dir/src/sum.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp
